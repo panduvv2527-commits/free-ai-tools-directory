@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free AI Tools Directory</title>
+    <meta name="description" content="Discover and explore free AI tools for text, image, video, code, productivity, music, and design — searchable and filterable by category.">
+
+    <!-- Open Graph / social preview -->
+    <meta property="og:title" content="Free AI Tools Directory">
+    <meta property="og:description" content="Discover and explore free AI tools for every need.">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 Free AI Tools Directory</h1>
+            <p>Discover and explore free AI tools for every need</p>
+        </header>
+
+        <div class="search-section">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search AI tools..."
+                class="search-bar"
+                aria-label="Search AI tools"
+            >
+            <select id="categoryFilter" class="category-filter" aria-label="Filter by category">
+                <option value="">All Categories</option>
+                <option value="text-generation">Text Generation</option>
+                <option value="image-generation">Image Generation</option>
+                <option value="video">Video</option>
+                <option value="code">Code</option>
+                <option value="productivity">Productivity</option>
+                <option value="music">Music</option>
+                <option value="design">Design</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div id="toolsList" class="tools-grid" aria-live="polite">
+            <!-- Tools will be loaded here -->
+        </div>
+
+        <footer>
+            <p>Built with vanilla HTML, CSS &amp; JS. <a href="https://github.com/panduvv2527-commits/free-ai-tools-directory" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="data.js" defer></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
