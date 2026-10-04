@@ -74,6 +74,15 @@ const aiTools = [
         description: "Terminal-based agent for deep multi-file refactors and large codebase understanding.",
         url: "https://claude.ai"
     },
+    {
+        id: 46,
+        name: "Agent QA",
+        icon: "🧪",
+        category: "code",
+        description: "AI-driven web, Android and iOS regression tests with YAML, a CLI and dashboard; model/browser/device costs may apply.",
+        url: "https://vostride.com/docs/agent-qa"
+    },
+
 
     // Creative & Design
     {
